@@ -1,5 +1,7 @@
 import "../css/About.css"
 import Navbar from "./navbar"
+import { Helmet } from "react-helmet"
+
 import { useEffect, useRef, useState } from "react"
 
 function adjust(){
@@ -59,7 +61,9 @@ export default function About(){
 
     return(
         <div>
-            
+            <Helmet>
+            <title>About</title>
+            </Helmet>
             <Navbar />
             <h1 class="title">
                 ABOUT ME

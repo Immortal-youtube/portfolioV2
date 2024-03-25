@@ -1,9 +1,14 @@
 import '../css/MyProjects.css'
 import Navbar from './navbar'
+import { Helmet } from "react-helmet"
+
 
 export default function MyProjects(){
     return(
         <div>
+            <Helmet>
+                <title>My Projects</title>
+            </Helmet>
             <Navbar />
             <h1 class="title">My Projects</h1>
             <h1 class="subtitle">My Minecraft Projects:</h1>

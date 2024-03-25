@@ -2,6 +2,8 @@
 import { useEffect } from "react";
 import "../css/Articles.css"
 import Navbar from "./navbar"
+import { Helmet } from "react-helmet"
+
 let check = false;
 
 function show(id){
@@ -38,6 +40,9 @@ export default function Articles(){
     
     return(
         <div>
+            <Helmet>
+                <title>Articles</title>
+            </Helmet>
             <Navbar/>
             <h1 class="title">Articles</h1>
             <div class="container_article">

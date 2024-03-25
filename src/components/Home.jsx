@@ -1,9 +1,12 @@
 import Navbar from "./navbar"
+import { Helmet } from "react-helmet"
 import '../css/Home.css'
 export default function Home(){
     return (
         <div class="main">
-        
+        <Helmet>
+          <title>Immortal</title>
+        </Helmet>
         <Navbar />
         <h1 class="title">HEY THERE, MY NAME IS ANSH !</h1>
         <p class="title_p">
