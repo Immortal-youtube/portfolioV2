@@ -1,0 +1,87 @@
+/* 604 is the width at which it should just become a drop down menu */
+
+@keyframes example{
+    0% {
+        
+        height:60px;
+       
+    }  
+    100%{
+        display: inline-grid;
+        height:165px;
+        
+    } 
+}
+
+
+@keyframes example_inverse{
+    0% {
+        height:165px;
+       
+    }  
+    100%{
+        display: flex;
+        height:60px;
+        
+    } 
+}
+
+
+@keyframes text {
+    0%{
+
+        opacity: 0;
+    }
+    100%{
+        
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes text_inverse {
+    0%{
+
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
+#nav{
+    background-color: #382771;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.nav > li{
+    padding-right: 30px;
+    color: white;
+    font-size: x-large;
+    padding-left: 30px;
+    
+}
+
+.nav > button{
+    font-size: x-large;
+    
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    z-index: 10;
+}
+
+
+

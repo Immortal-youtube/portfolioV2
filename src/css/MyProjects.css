@@ -1,0 +1,101 @@
+.title {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size:60px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    
+    font-weight:400;
+    font-style: normal;
+    padding: 20px;
+}
+
+.subtitle{
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size:30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-style: normal;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.container{
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-color: #382771;
+    border-width: 10px;
+    border-radius: 5%;
+    margin-left: 25px;
+    min-width: 300px;
+    min-height: 300px;
+    margin-bottom: 25px;
+    perspective: 1000px;
+    transition: transform 0.8s;
+   
+}
+
+
+.main_card:hover .card{
+    
+    transform: rotateY(180deg);
+    
+}
+
+.main_card:hover .inner_text{
+    
+    visibility: hidden;
+}
+
+.main_card:hover .outer_text{
+    
+    
+    transition-delay: 0.3s;
+    visibility: visible;
+    position: absolute;
+    transform:rotateY(180deg);
+    object-fit: contain;
+}
+
+
+.outer_text{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    line-height: 2;
+    visibility: hidden;
+    max-width:290px;
+    max-height: 290px;
+    position: absolute;
+    font-size: 15px;
+    top:0;
+    left:0;
+    padding: 10px;
+}
+
+
+
+.inner_text{
+    position: absolute;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size:30px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    transform: translateY(90%);
+}
+
+.links{
+    text-decoration: underline;
+    color: purple;
+}

@@ -1,0 +1,188 @@
+/* 742 pixels */
+
+.title {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size:60px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    
+    font-weight:400;
+    font-style: normal;
+    padding: 20px;
+}
+  
+.experience_title{
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size:30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-style: normal;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.experience_p{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.circle1{
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 17.5px;
+    background-color: #8500A6;
+}
+
+.timeline{
+    width: 5px;
+    position: absolute ;
+    left:25px;
+    height:200px;
+    margin-top: 40px;
+    background-color: #9106FF;
+}
+
+.padding_last{
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size:30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-style: normal;
+    color: white;
+    padding-bottom:0;
+}
+
+.timeline2{
+    width: 5px;
+    position: absolute ;
+    left:25px;
+    height:200px;
+    
+    background-color: #9106FF;
+    position: absolute;
+    left:50%
+}
+
+.circle_l{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    
+    background-color: #8500A6;
+    position: absolute;
+    justify-self: end;
+    transform: translate(12px,-1px);
+}
+
+.programming_p{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    line-height: 2;
+    padding-bottom: 20px;
+    text-align: right;
+    
+    justify-self: right;
+    transform: translate(12px,-8px);
+
+}
+
+.programming_path{
+    width:100%;
+    padding-top: 50px;
+}
+
+.end{
+    padding-bottom: 50px ;
+}
+
+
+.first_programming{
+    width:50%;
+    display: grid;   
+}
+.second_programming{
+    width:50%;
+    display: grid; 
+    transform: translateX(100%);
+    
+}
+.circle_r{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    
+    background-color: #8500A6;
+    position: absolute;
+    
+    transform: translate(-7px,-1px);
+}
+.programming_pr{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-self: left;
+    line-height: 2;
+    padding-bottom: 20px;
+    text-align: left;
+    transform: translate(12px,-8px);
+
+}
+
+.inner_line1{
+    width: 25%;
+    height:5px;
+    background-color:#9106FF;
+    justify-self: end;
+    transform: translate(0,6px);
+    
+}
+
+.inner_line2{
+    width: 25%;
+    height:5px;
+    background-color:#9106FF;
+    justify-self: start;
+    transform: translate(0,6px);
+}
+
+.inner_circle{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: #8500A6;
+    position: absolute;
+    justify-self: center;
+    transform: translate(900%,0);
+    
+}
+
+.inner_circle2{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: #8500A6;
+    position: absolute;
+    justify-self: start;
+    transform: translate(900%,0);
+}
+

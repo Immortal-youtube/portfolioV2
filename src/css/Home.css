@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.title {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-size:60px;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  
+  font-weight:400;
+  font-style: normal;
+  padding: 20px;
+}
+
+.title_p{
+  
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  line-height: 2;
+}
+
+.on_going_projects_title{
+  
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size:30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-style: normal;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+
+.on_going_projects_list{
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  list-style-type: disc;
+  padding-left: 65px;
+  padding-right: 50px;
+  
+  line-height:2;
+}
+
+.p2{
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  line-height: 2;
+  padding-bottom: 20px;
+  
+}
+
+
+
+
