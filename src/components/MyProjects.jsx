@@ -143,7 +143,7 @@ export default function MyProjects(){
                 <div class="main_card">
                     <div class="card">
                         <div class="outer-card">
-                            <h1 class="inner_text">Fire Ecology (Competetion)</h1>
+                            <h1 class="inner_text">Fire Ecology (Competition)</h1>
 
                         </div>
                         <div class="inner-card">
